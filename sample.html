@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FadeJr sample</title>
+	<!-- Include the css file that comes in a minified version-->
+	<link rel="stylesheet" type="text/css" href="dist/FadeJr.min.css">
+</head>
+<body style="text-align: center;">
+	<!-- Add the .fade-jr class to any element that you fade during the scroll -->
+	<h2>Please scroll to see the effect</h2>
+	<h1 style="margin-top: 300px;" class="fade-jr">Hello World!</h1>
+	<img src="sample.jpg" class="fade-jr" width="300" height="300">
+	<h2 style="margin-top: 300px;" class="fade-jr">Hello World!</h2>
+	<img src="sample.jpg" class="fade-jr" width="250" height="250">
+	<!-- Or you could add a transition delay in each element with the same row -->
+	<div style="margin-bottom: 300px; font-size: 20pt">
+		<h2>ELEMENTS WITH TRANSITION DELAY</h2>
+		<span class="fade-jr" >I Fade</span>
+		<span class="fade-jr" style="transition-delay: .5s">I Am Delayed </span>
+		<span class="fade-jr" style="transition-delay: 1s">I Am Delayed Too</span>
+		<span class="fade-jr" style="transition-delay: 1.5s">Me Too</span>
+	</div>
+</body>
+<!-- Include the Jquery -->
+<script type="text/javascript" src="jquery/jquery-3.3.1.min.js"></script>
+<!-- Include the JS file that comes in a minified version -->
+<script type="text/javascript" src="dist/FadeJr.min.js"></script>
+</html>

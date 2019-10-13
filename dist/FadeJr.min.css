@@ -1,0 +1,5 @@
+:root{
+	/* Modify this if you want to change the fade time, Do not change the variable name*/
+	--fade-time:.5s;
+}
+.fade-jr{opacity: 0;transition: opacity var(--fade-time) ease-out;-webkit-transition:opacity var(--fade-time) ease-out;}.zoom {-webkit-animation:animatezoom var(--fade-time);animation:animatezoom var(--fade-time)}@-webkit-keyframes animatezoom{from{-webkit-transform:scale(0)} to{-webkit-transform:scale(1)}}@keyframes animatezoom{from{-webkit-transform:scale(0)} to{-webkit-transform:scale(1)}}
