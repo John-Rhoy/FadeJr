@@ -4,7 +4,7 @@ FadeJr is a simple JQuery library that fades an element when windown is scrolled
 *************************************
 This library is powered by Jquery.
 Developer: John Rhoy Gadot
-Website: jrgadot.ml
+Website: http://jrgadot.ml
 Email: gadotjohnrhoy@gmail.com
 *************************************
 How to use:
